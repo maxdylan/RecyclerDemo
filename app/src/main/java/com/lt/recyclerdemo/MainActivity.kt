@@ -11,6 +11,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         tvTest.setShadowLayer(10F, 1F, 1F, Color.WHITE)
-
+//        hahaha
     }
 }
