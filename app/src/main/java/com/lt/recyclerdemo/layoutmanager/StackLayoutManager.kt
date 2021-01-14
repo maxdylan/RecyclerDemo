@@ -28,14 +28,48 @@ class StackLayoutManager : RecyclerView.LayoutManager() {
             right = left + getDecoratedMeasuredWidth(v)
             bottom = getDecoratedMeasuredHeight(v)
             layoutDecoratedWithMargins(v, left, 0, right, bottom)
-            left += getDecoratedMeasuredWidth(v)
-            totalWidth -= getDecoratedMeasuredWidth(v)
+            left += getDecoratedMeasuredWidth(v) - 50
+            totalWidth -= getDecoratedMeasuredWidth(v) - 50
             currentPosition++
         }
         printMsg(recycler)
     }
 
-    private fun printMsg(recycler: RecyclerView.Recycler){
-        Log.d("StackLayoutManager","$childCount --- ${recycler.scrapList.size}")
+    override fun canScrollHorizontally() = true
+
+    override fun scrollHorizontallyBy(
+        dx: Int,
+        recycler: RecyclerView.Recycler,
+        state: RecyclerView.State
+    ): Int {
+        // todo fill
+        val realDx = fillChild(dx,recycler)
+
+        // todo move
+        offsetChildrenHorizontal(-dx)
+
+        // todo recycle
+        recycler(dx, recycler)
+        return realDx
+    }
+
+    private fun fillChild(dx: Int,recycler: RecyclerView.Recycler): Int {
+
+        // todo detach
+
+        // todo addView
+
+        // todo recycle
+
+
+        return dx
+    }
+
+    private fun recycler(dx: Int, recycler: RecyclerView.Recycler) {
+
+    }
+
+    private fun printMsg(recycler: RecyclerView.Recycler) {
+        Log.d("StackLayoutManager", "$childCount --- ${recycler.scrapList.size}")
     }
 }
