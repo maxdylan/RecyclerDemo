@@ -17,7 +17,7 @@ class SimpleImageAdapter(private val context: Context) :
         )
     )
 
-    override fun getItemCount(): Int = 100
+    override fun getItemCount(): Int = 20
 
     override fun onBindViewHolder(holder: SimpleImageViewHolder, position: Int) {
         holder.itemView.tvPos.text = "$position"

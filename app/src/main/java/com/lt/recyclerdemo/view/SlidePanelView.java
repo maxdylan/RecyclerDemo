@@ -34,9 +34,10 @@ public class SlidePanelView extends View {
 
     private final Paint bgPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
     private final Paint blockPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
+    private final Paint textPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
 
-    private static final int BLOCK_START_X = 5;
-    private static final int BLOCK_START_Y = 5;
+    private static final int BLOCK_START_X = 0;
+    private static final int BLOCK_START_Y = 0;
 
     private OnSlidePanelMoveToEndListener moveToEndListener;
 
@@ -55,11 +56,15 @@ public class SlidePanelView extends View {
 
     private void init() {
         bgPaint.setColor(Color.RED);
-        bgPaint.setStyle(Paint.Style.STROKE);
-        bgPaint.setStrokeWidth(BLOCK_START_X * 2);
+        bgPaint.setStyle(Paint.Style.FILL);
 
         blockPaint.setColor(Color.GREEN);
         blockPaint.setStyle(Paint.Style.FILL);
+
+        textPaint.setStyle(Paint.Style.STROKE);
+        textPaint.setStrokeWidth(1);
+        textPaint.setColor(Color.WHITE);
+        textPaint.setTextSize(40);
     }
 
     @Override
@@ -87,22 +92,21 @@ public class SlidePanelView extends View {
                     if (blockOffset < 0) {
                         blockOffset = 0;
                     }
-                    if (blockWidth + BLOCK_START_X + blockOffset > getWidth() - BLOCK_START_X) {
+                    if (blockOffset > getWidth()) {
                         // 超出右边界
-                        blockOffset = getWidth() - BLOCK_START_X * 2 - blockWidth;
+                        blockOffset = getWidth();
                     }
                     invalidate();
                 }
                 break;
             case MotionEvent.ACTION_UP:
+
+                // 执行滑块回归动画
+                ObjectAnimator animator = ObjectAnimator.ofInt(this, "blockOffset", (int) (blockOffset + lastX), 0);
+                animator.setInterpolator(new DecelerateInterpolator());
+                animator.setDuration(1000 * blockOffset / getWidth());
+                animator.start();
                 lastX = 0;
-                if (blockOffset != 0) {
-                    // 执行滑块回归动画
-                    ObjectAnimator animator = ObjectAnimator.ofInt(this, "blockOffset", blockOffset, 0);
-                    animator.setInterpolator(new DecelerateInterpolator());
-                    animator.setDuration(1000 * blockOffset / getWidth());
-                    animator.start();
-                }
                 break;
             default:
                 break;
@@ -111,16 +115,20 @@ public class SlidePanelView extends View {
         return true;
     }
 
+    private static final String STRING_SLIDE_TO_RIGHT = ">>>向右滑动";
+
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         // 画背景
         canvas.drawRect(0, 0, getWidth(), getHeight(), bgPaint);
         // 画滑块
-        canvas.drawRect(BLOCK_START_X, BLOCK_START_Y, blockWidth + BLOCK_START_X + blockOffset, getHeight() - BLOCK_START_Y, blockPaint);
+        canvas.drawRect(BLOCK_START_X, BLOCK_START_Y, BLOCK_START_X + blockOffset + lastX, getHeight() - BLOCK_START_Y, blockPaint);
+        // 画文字
+        canvas.drawText(STRING_SLIDE_TO_RIGHT,40,(float) getHeight()/2,textPaint);
     }
 
-    public interface OnSlidePanelMoveToEndListener{
+    public interface OnSlidePanelMoveToEndListener {
         /**
          * 滑块滑到了末尾
          */
