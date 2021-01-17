@@ -1,2 +1,5 @@
+include ':vitamio-sample'
+include ':vitamio'
+include ':vitamioplayer'
 include ':app'
 rootProject.name = "RecyclerDemo"

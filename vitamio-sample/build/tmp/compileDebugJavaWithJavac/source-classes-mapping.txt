@@ -1,0 +1,37 @@
+io/vov/vitamio/demo/VideoViewBuffer.java
+ io.vov.vitamio.demo.VideoViewBuffer
+ io.vov.vitamio.demo.VideoViewBuffer$1
+io/vov/vitamio/demo/VideoSubtitleList.java
+ io.vov.vitamio.demo.VideoSubtitleList
+io/vov/vitamio/demo/MediaPlayerDemo_Video.java
+ io.vov.vitamio.demo.MediaPlayerDemo_Video
+io/vov/vitamio/demo/VideoViewSubtitle.java
+ io.vov.vitamio.demo.VideoViewSubtitle
+ io.vov.vitamio.demo.VideoViewSubtitle$1
+ io.vov.vitamio.demo.VideoViewSubtitle$2
+io/vov/vitamio/demo/XspfData.java
+ io.vov.vitamio.demo.XspfData
+io/vov/vitamio/demo/MediaPlayerDemo_Audio.java
+ io.vov.vitamio.demo.MediaPlayerDemo_Audio
+io/vov/vitamio/demo/MediaPlayerDemo_setSurface.java
+ io.vov.vitamio.demo.MediaPlayerDemo_setSurface
+io/vov/vitamio/demo/MediaPlayerSubtitle.java
+ io.vov.vitamio.demo.MediaPlayerSubtitle
+io/vov/vitamio/demo/MediaPlayerDemo.java
+ io.vov.vitamio.demo.MediaPlayerDemo
+ io.vov.vitamio.demo.MediaPlayerDemo$1
+ io.vov.vitamio.demo.MediaPlayerDemo$2
+ io.vov.vitamio.demo.MediaPlayerDemo$3
+ io.vov.vitamio.demo.MediaPlayerDemo$4
+ io.vov.vitamio.demo.MediaPlayerDemo$5
+io/vov/vitamio/demo/BuildConfig.java
+ io.vov.vitamio.demo.BuildConfig
+io/vov/vitamio/demo/MediaMetadataRetrieverDemo.java
+ io.vov.vitamio.demo.MediaMetadataRetrieverDemo
+io/vov/vitamio/demo/VideoViewDemo.java
+ io.vov.vitamio.demo.VideoViewDemo
+ io.vov.vitamio.demo.VideoViewDemo$1
+io/vov/vitamio/demo/VitamioListActivity.java
+ io.vov.vitamio.demo.VitamioListActivity
+io/vov/vitamio/demo/XspfActivity.java
+ io.vov.vitamio.demo.XspfActivity

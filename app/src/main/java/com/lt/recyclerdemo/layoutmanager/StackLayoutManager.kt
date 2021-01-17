@@ -48,7 +48,7 @@ class StackLayoutManager : RecyclerView.LayoutManager() {
         val realDx = fillChild(dx, recycler)
 
         // move
-        offsetChildrenHorizontal(-dx)
+        offsetChildrenHorizontal(-realDx)
 
         // recycle
         recyclerViewOutOfScreen(dx, recycler)

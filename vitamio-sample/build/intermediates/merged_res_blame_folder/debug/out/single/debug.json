@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/build/intermediates/res/merged/debug/layout_subtitle1.xml.flat",
+        "source": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/res/layout/subtitle1.xml"
+    },
+    {
+        "merged": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/build/intermediates/res/merged/debug/layout_subtitle2.xml.flat",
+        "source": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/res/layout/subtitle2.xml"
+    },
+    {
+        "merged": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/build/intermediates/res/merged/debug/layout_media_metadata.xml.flat",
+        "source": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/res/layout/media_metadata.xml"
+    },
+    {
+        "merged": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/build/intermediates/res/merged/debug/raw_test_cbr.mp3.flat",
+        "source": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/res/raw/test_cbr.mp3"
+    },
+    {
+        "merged": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/build/intermediates/res/merged/debug/drawable-xhdpi_mediacontroller_sreen_size_crop.png.flat",
+        "source": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/res/drawable-xhdpi/mediacontroller_sreen_size_crop.png"
+    },
+    {
+        "merged": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/build/intermediates/res/merged/debug/drawable-xhdpi_mediacontroller_sreen_size_100.png.flat",
+        "source": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/res/drawable-xhdpi/mediacontroller_sreen_size_100.png"
+    },
+    {
+        "merged": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/build/intermediates/res/merged/debug/layout_mediaplayer_1.xml.flat",
+        "source": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/res/layout/mediaplayer_1.xml"
+    },
+    {
+        "merged": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/build/intermediates/res/merged/debug/layout_mediaplayer_2.xml.flat",
+        "source": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/res/layout/mediaplayer_2.xml"
+    },
+    {
+        "merged": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/build/intermediates/res/merged/debug/raw_libarm.so.flat",
+        "source": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/res/raw/libarm.so"
+    },
+    {
+        "merged": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/build/intermediates/res/merged/debug/drawable-xhdpi_mediacontroller_screen_fit.png.flat",
+        "source": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/res/drawable-xhdpi/mediacontroller_screen_fit.png"
+    },
+    {
+        "merged": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/build/intermediates/res/merged/debug/layout_videobuffer.xml.flat",
+        "source": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/res/layout/videobuffer.xml"
+    },
+    {
+        "merged": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/build/intermediates/res/merged/debug/layout_videoview.xml.flat",
+        "source": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/res/layout/videoview.xml"
+    },
+    {
+        "merged": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/build/intermediates/res/merged/debug/raw_hsck.txt.flat",
+        "source": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/res/raw/hsck.txt"
+    },
+    {
+        "merged": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/build/intermediates/res/merged/debug/drawable-xhdpi_mediacontroller_screen_size.png.flat",
+        "source": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/res/drawable-xhdpi/mediacontroller_screen_size.png"
+    },
+    {
+        "merged": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/build/intermediates/res/merged/debug/layout_activity_xspf.xml.flat",
+        "source": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/res/layout/activity_xspf.xml"
+    },
+    {
+        "merged": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/build/intermediates/res/merged/debug/layout_mediaplayer_3.xml.flat",
+        "source": "/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/res/layout/mediaplayer_3.xml"
+    }
+]

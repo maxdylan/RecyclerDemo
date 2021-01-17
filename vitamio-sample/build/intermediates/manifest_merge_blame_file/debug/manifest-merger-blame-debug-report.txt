@@ -1,0 +1,180 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lt.recyclerdemo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml
+9        android:targetSdkVersion="22" />
+9-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:7:5-68
+11-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:7:22-65
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:8:5-67
+12-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:9:5-79
+13-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:10:5-80
+14-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:10:22-77
+15
+16    <application
+16-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:12:5-88:19
+17        android:allowBackup="false"
+17-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:13:9-36
+18        android:debuggable="true"
+19        android:icon="@drawable/ic_launcher"
+19-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:14:9-45
+20        android:label="@string/vitamio_demo_name"
+20-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:15:9-50
+21        android:testOnly="true" >
+22
+23        <!-- Don't forgot InitActivity -->
+24        <activity
+24-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:18:9-23:63
+25            android:name="io.vov.vitamio.activity.InitActivity"
+25-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:19:13-64
+26            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+26-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:20:13-113
+27            android:launchMode="singleTop"
+27-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:21:13-43
+28            android:theme="@android:style/Theme.NoTitleBar"
+28-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:22:13-60
+29            android:windowSoftInputMode="stateAlwaysHidden" />
+29-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:23:13-60
+30        <activity android:name="io.vov.vitamio.demo.VitamioListActivity" >
+30-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:24:9-31:20
+30-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:24:19-54
+31            <intent-filter>
+31-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:25:13-30:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:26:17-69
+32-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:26:25-66
+33
+34                <category android:name="android.intent.category.DEFAULT" />
+34-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:28:17-76
+34-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:28:27-73
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:29:17-77
+35-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:29:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:32:9-35:20
+39            android:name="io.vov.vitamio.demo.MediaPlayerDemo"
+39-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:33:13-44
+40            android:label="Media/MediaPlayer" >
+40-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:34:13-46
+41        </activity>
+42        <activity
+42-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:36:9-42:20
+43            android:name="io.vov.vitamio.demo.VideoViewDemo"
+43-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:37:13-42
+44            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+44-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:38:13-113
+45            android:label="Media/VideoView"
+45-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:39:13-44
+46            android:screenOrientation="landscape"
+46-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:41:13-50
+47            android:theme="@style/NoActionBar" >
+47-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:40:13-47
+48        </activity>
+49        <activity
+49-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:43:9-47:20
+50            android:name="io.vov.vitamio.demo.MediaPlayerDemo_Video"
+50-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:44:13-50
+51            android:label="Media/MediaPlayer"
+51-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:45:13-46
+52            android:screenOrientation="landscape" >
+52-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:46:13-50
+53        </activity>
+54        <activity
+54-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:48:9-51:20
+55            android:name="io.vov.vitamio.demo.MediaPlayerDemo_setSurface"
+55-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:49:13-55
+56            android:label="Media/MediaPlayer" >
+56-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:50:13-46
+57        </activity>
+58        <activity
+58-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:52:9-55:20
+59            android:name="io.vov.vitamio.demo.MediaPlayerDemo_Audio"
+59-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:53:13-50
+60            android:label="Media/MediaPlayer" >
+60-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:54:13-46
+61        </activity>
+62        <activity
+62-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:56:9-59:20
+63            android:name="io.vov.vitamio.demo.MediaMetadataRetrieverDemo"
+63-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:57:13-55
+64            android:label="Media/MediaMetadata" >
+64-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:58:13-48
+65        </activity>
+66        <activity
+66-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:60:9-63:20
+67            android:name="io.vov.vitamio.demo.MediaPlayerSubtitle"
+67-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:61:13-48
+68            android:label="@string/title_activity_media_player_subtitle" >
+68-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:62:13-73
+69        </activity>
+70        <activity
+70-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:64:9-67:20
+71            android:name="io.vov.vitamio.demo.VideoViewSubtitle"
+71-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:65:13-46
+72            android:label="@string/title_activity_video_view_subtitle" >
+72-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:66:13-71
+73        </activity>
+74        <activity
+74-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:68:9-71:20
+75            android:name="io.vov.vitamio.demo.VideoSubtitleList"
+75-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:69:13-46
+76            android:label="@string/title_activity_video_subtitle_list" >
+76-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:70:13-71
+77        </activity>
+78        <activity
+78-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:72:9-75:20
+79            android:name="io.vov.vitamio.demo.VideoViewBuffer"
+79-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:73:13-44
+80            android:label="@string/title_activity_video_buffer" >
+80-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:74:13-64
+81        </activity>
+82        <activity android:name="io.vov.vitamio.demo.XspfActivity" >
+82-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:76:9-87:20
+82-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:76:19-47
+83            <intent-filter>
+83-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:77:13-86:29
+84                <action android:name="android.intent.action.VIEW" />
+84-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:78:17-69
+84-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:78:25-66
+85
+86                <category android:name="android.intent.category.DEFAULT" />
+86-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:28:17-76
+86-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:28:27-73
+87                <category android:name="android.intent.category.BROWSABLE" />
+87-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:80:17-78
+87-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:80:27-75
+88
+89                <data android:scheme="file" />
+89-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:81:17-46
+89-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:81:23-44
+90                <data android:scheme="content" />
+90-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:81:17-46
+90-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:81:23-44
+91                <data android:scheme="http" />
+91-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:81:17-46
+91-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:81:23-44
+92                <data android:scheme="https" />
+92-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:81:17-46
+92-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:81:23-44
+93                <data android:mimeType="*/*" />
+93-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:81:17-46
+93-->/Users/admin/Documents/demo/RecyclerDemo/vitamio-sample/AndroidManifest.xml:85:23-45
+94            </intent-filter>
+95        </activity>
+96    </application>
+97
+98</manifest>
