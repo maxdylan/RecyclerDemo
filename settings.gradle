@@ -1,4 +1,4 @@
-include ':vitamio-sample'
+include ':ipcheckdemo'
 include ':vitamio'
 include ':vitamioplayer'
 include ':app'

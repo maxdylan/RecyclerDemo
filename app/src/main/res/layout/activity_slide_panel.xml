@@ -5,8 +5,8 @@
 
     <com.lt.recyclerdemo.view.SlidePanelView
         android:id="@+id/slidePanel"
-        android:layout_width="400px"
-        android:layout_height="200px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center" />
 
 </FrameLayout>
